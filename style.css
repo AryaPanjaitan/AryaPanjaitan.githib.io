@@ -325,6 +325,28 @@ body {
   }
 }
 
+footer {
+  padding: 3rem;
+  background-color: var(--pink);
+  color: white;
+}
+
+footer a {
+  color: var(--bg);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: red;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
+
 /* laptop */
 
 @media (max-width: 992px) {
@@ -423,27 +445,7 @@ body {
   }
 }
 
-footer {
-  padding: 3rem;
-  background-color: var(--pink);
-  color: white;
-}
 
-footer a {
-  color: var(--bg);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: white;
-}
-
-footer li {
-  list-style: none;
-  display: inline;
-  margin: 0.5rem;
-}
 
 /* handphone */
 
